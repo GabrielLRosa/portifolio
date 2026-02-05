@@ -1,0 +1,149 @@
+/* Importação de arquivos CSS */
+@import url("fonts.css");
+@import url("variables.css");
+@import url("loading.css");
+@import url("layout.css");
+@import url("typography.css");
+@import url("components.css");
+@import url("menu.css");
+
+
+/* Estilos gerais */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: var(--bg-color);
+    min-height: 100vh;
+}
+
+.message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--section-bg);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px var(--shadow-color);
+    text-align: center;
+    max-width: 90%;
+    width: 500px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.message__title {
+    font-family: var(--font-montserrat);
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+}
+
+.message__text {
+    font-family: var(--font-poppins);
+    font-weight: 400;
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+}
+
+.message__link {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: var(--text-color);
+    color: var(--color-white);
+    text-decoration: none;
+    border-radius: 4px;
+    transition: opacity 0.3s ease;
+    margin-top: 0.5rem;
+    font-family: var(--font-poppins);
+    font-weight: 500;
+}
+
+.message__link:hover {
+    opacity: 0.9;
+}
+
+.resume-link {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: var(--noscript-title);
+    color: var(--color-white);
+    text-decoration: none;
+    border-radius: 4px;
+    transition: opacity 0.3s ease;
+    margin-top: 0.5rem;
+    font-family: var(--font-poppins);
+    font-weight: 500;
+}
+
+.resume-link:hover {
+    opacity: 0.9;
+}
+
+.header {
+    display: flex;
+    grid-column: span 2;
+}
+ 
+.header .header__text {
+    flex: 1;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    25% {
+        background-position: 50% 0%;
+    }
+    50% {
+        background-position: 100% 0%;
+    }
+    75% {
+        background-position: 50% 0%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+.description__text {
+    display: none;
+}
+
+.description__text--visible {
+    display: block;
+}
+
+.header__languages {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.header__btn {
+    background: none;
+    border: none;
+    font-family: var(--font-courier);
+    font-size: 14px;
+    color: var(--color-text-gray);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.header__btn:hover {
+    opacity: 0.9;
+}
+
+.header__btn.active {
+    font-weight: bold;
+}

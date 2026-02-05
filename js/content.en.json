@@ -1,0 +1,30 @@
+{
+  "header": {
+    "subtitle": "Developer & Designer"
+  },
+  "menu": {
+    "sobre": "About",
+    "projetos": "Projects",
+    "contato": "Contact",
+    "reserva": "Reserva",
+    "frigelar": "Frigelar",
+    "livelo": "Livelo",
+    "itmidia": "ITMidia"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "aria": "Toggle theme"
+  },
+  "description__step-sobre": "I am a developer passionate about creating innovative and efficient solutions. With experience in web development, I always seek to deliver high-quality products that meet user needs.",
+  "description__step-contato": {
+    "telefone": "(54) 98163-6658",
+    "email": "gabrielrosapf@outlook.com",
+    "linkedin": "https://www.linkedin.com/in/gabriel-louren%C3%A7o-da-rosa-084186106/",
+    "github": "https://github.com/GabrielLRosa"
+  },
+  "description__step-reserva": "I have solid skills in HTML, CSS, and JavaScript, as well as experience with modern frameworks like React and Vue.js. I also have knowledge in backend development with Node.js and Python.",
+  "description__step-frigelar": "Beyond web development, I have an interest in UI/UX design, accessibility, and performance. I believe that a good user experience is fundamental to the success of any digital product.",
+  "description__step-livelo": "Currently, I am focused on expanding my knowledge in mobile application development and emerging technologies like WebAssembly and Progressive Web Apps.",
+  "description__step-itmidia": "Outside the development environment, I enjoy contributing to the tech community through articles, tutorials, and event participation. I believe that knowledge sharing is essential for the growth of the field."
+} 

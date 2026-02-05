@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@300;400;700&family=Montserrat:wght@300;400;700&family=Poppins:wght@300;400;700&display=swap');
+ 
+:root {
+    --font-courier: 'Courier Prime', monospace;
+    --font-montserrat: 'Montserrat', sans-serif;
+    --font-poppins: 'Poppins', sans-serif;
+} 

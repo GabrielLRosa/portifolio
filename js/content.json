@@ -1,0 +1,30 @@
+{
+  "header": {
+    "subtitle": "Desenvolvedor & Designer"
+  },
+  "menu": {
+    "sobre": "Sobre",
+    "projetos": "Projetos",
+    "contato": "Contato",
+    "reserva": "Reserva",
+    "frigelar": "Frigelar",
+    "livelo": "Livelo",
+    "itmidia": "ITMidia"
+  },
+  "theme": {
+    "light": "claro",
+    "dark": "escuro",
+    "aria": "Alternar tema"
+  },
+  "description__step-sobre": "Sou desenvolvedor e designer com 8 anos de experiência, especializado em Front-end e explorando cada vez mais o Back-end. \n\n Atualmente, atuo no projeto Reserva, onde comecei com suporte para e-commerce em OCC e VTEX, hoje desenvolvo com React e React Native. \n\n Tenho experiência sólida em integrações de APIs, desenvolvimento web (inclusive com 3D) e liderança técnica. \n\n Ao longo da minha carreira, participei de projetos de e-commerce e jornalismo em empresas como Livelo, IT Mídia e Frigelar, sempre trabalhando com metodologias ágeis como Scrum e Kanban, em times de diferentes tamanhos. \n\n Minha formação inclui Web Design e UI Design pela Origamid e Tecnologia em Sistemas para Internet pelo IFSUL, o que me deu uma base técnica sólida para unir design e tecnologia na criação de soluções impactantes.",
+  "description__step-contato": {
+    "telefone": "(54) 98163-6658",
+    "email": "gabrielrosapf@outlook.com",
+    "linkedin": "https://www.linkedin.com/in/gabriel-louren%C3%A7o-da-rosa-084186106/",
+    "github": "https://github.com/GabrielLRosa"
+  },
+  "description__step-reserva": "Iniciei no projeto oferecendo suporte para a plataforma de e-commerce usando OCC. \n\n Com o tempo, fiz a transição para o desenvolvimento em React e React Native para o ecossistema VTEX, aprimorando minha expertise em Front-end e expandindo minhas habilidades de design. \n\n Também explorei o desenvolvimento web em 3D, utilizando bibliotecas como Three.js e Canvas para criar experiências interativas. \n\n Meu trabalho focou em integrações de APIs, tanto REST quanto GraphQL, além do desenvolvimento backend com Node.js e Next.js. Além da codificação, contribuí para a arquitetura de soluções escaláveis e otimização de fluxos de trabalho de desenvolvimento, adquirindo experiência valiosa em liderança técnica.",
+  "description__step-frigelar": "Na Frigelar, fui responsável por desenvolver e dar manutenção em funcionalidades críticas do e-commerce utilizando a plataforma OCC e o framework Knockout.js. \n\n Atuei diretamente na criação de componentes customizados para páginas de produto, carrinho e checkout, sempre com foco em usabilidade e conversão. \n\n Também executei integrações com serviços externos por meio de APIs REST e participei da análise e solução de bugs relacionados a performance e layout.  \n\n A rotina seguiu a metodologia Kanban, com entregas frequentes e interação direta com stakeholders para alinhar expectativas e priorizar demandas.",
+  "description__step-livelo": "Na Livelo, atuei em projetos de e-commerce voltados para a fidelização de clientes, utilizando tecnologias como JavaScript, HTML, CSS e Java, em conjunto com a plataforma OCC. \n\n Trabalhei com o framework Knockout.js para desenvolver componentes reutilizáveis e dinâmicos, garantindo performance e responsividade. \n\n Também colaborei no desenvolvimento de funcionalidades backend em Java, integrando serviços e processos do sistema com APIs REST. \n\n Realizei melhorias no fluxo de compra e na experiência do usuário, sempre em sintonia com os objetivos do negócio.  \n\n Participei de times multidisciplinares em sprints ágeis baseadas em Scrum, contribuindo ativamente para o refinamento de backlog, planejamento e entregas contínuas.",
+  "description__step-itmidia": "No projeto da IT Mídia, desenvolvi interfaces e funcionalidades para portais de conteúdo jornalístico com grande volume de acesso.\n\n  Utilizei PHP e WordPress, com forte atuação em customizações de temas e desenvolvimento de plugins específicos. \n\n No front-end, trabalhei com HTML, CSS e JavaScript puro, focando em acessibilidade, SEO e performance. \n\n Colaborei com jornalistas e equipes de conteúdo para garantir que as ferramentas atendiam às demandas editoriais, respeitando prazos curtos e mudanças constantes de escopo."
+} 

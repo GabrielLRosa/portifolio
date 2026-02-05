@@ -1,0 +1,65 @@
+@keyframes rotateShutter {
+    0% {
+        border-bottom: 3px solid var(--theme-loading-border-color);
+        transform: rotate(0deg);
+    }
+    100% {
+        border-bottom: 3px solid var(--theme-loading-border-color);
+        transform: rotate(90deg);
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+body.loading::before {
+    content: "";
+    position: fixed;
+    bottom: 50px;
+    left: -40px;
+    width: 300%;
+    height: 300%;
+    background-color: var(--bg-color);
+    z-index: 9999;
+    transform-origin: bottom right;
+    animation: rotateShutter 1s ease-in-out 2s forwards;
+}
+
+body.loading::after {
+    content: "Carregando...";
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--theme-loading-border-color);
+    font-family: var(--font-montserrat);
+    font-size: 24px;
+    z-index: 10000;
+    animation: fadeOut 2s ease-in-out forwards;
+}
+
+
+body.loading .theme,
+body.loading .menu__steps {
+    opacity: 0;
+}
+
+body .theme,
+body .menu__steps {
+    opacity: 1;
+}

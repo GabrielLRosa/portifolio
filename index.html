@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Projeto</title>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <noscript>
+        <div class="message message--noscript">
+            <h2 class="message__title">JavaScript Desativado</h2>
+            <p class="message__text">Para aproveitar todas as funcionalidades deste site, por favor ative o JavaScript
+                no seu navegador.</p>
+            <a href="curriculo.pdf" class="message__link" target="_blank">Ver Currículo</a>
+        </div>
+    </noscript>
+
+    <main class="main">
+        <section class="header">
+            <div class="header__text">
+                <h1 class="header__title"><strong>G</strong><span>abriel Rosa</span></h1>
+                <p class="header__subtitle" data-i18n="header.subtitle"></p>
+            </div>
+
+
+            <div class="header__languages">
+                <button class="header__btn" data-lang="en">en</button>
+                <button class="header__btn" data-lang="pt-BR">pt-BR</button>
+            </div>
+        </section>
+
+        <section class="section__links">
+            <a href="https://github.com/gabrielrosa-dev" class="section__link">
+                github
+            </a>
+            <a href="https://www.linkedin.com/in/gabrielrosa-dev/" class="section__link">
+                linkedin
+            </a>
+
+        </section>
+
+        <section class="section__content">
+            <div class="content__description">
+                <div class="description__wrapper custom-scrollbar">
+                    <span id="description__step-sobre" class="description__text" />
+                    </span>
+                    <span id="description__step-contato" class="description__text">
+                        <ul>
+                            <li id="telefone"></li>
+                            <li id="email"></li>
+                            <li id="linkedin"></li>
+                            <li id="github"></li>
+                        </ul>
+                    </span>
+                    <span id="description__step-reserva" class="description__text">
+
+                    </span>
+                    <span id="description__step-frigelar" class="description__text">
+
+                    </span>
+                    <span id="description__step-livelo" class="description__text">
+
+                    </span>
+                    <span id="description__step-itmidia" class="description__text">
+
+
+                </div>
+            </div>
+
+            <div class="content__menu">
+
+                <div class="menu__steps custom-scrollbar step">
+                    <span class="steps__wrapper">
+                        <p id="step-sobre" class="steps__item" data-i18n="menu.sobre"></p>
+                        <p id="step-projetos" class="steps__item" data-i18n="menu.projetos"></p>
+                        <p id="step-contato" class="steps__item" data-i18n="menu.contato"></p>
+                    </span>
+                </div>
+
+                <div class="menu__steps custom-scrollbar step step--fake">
+                    <span class="steps__wrapper">
+                        <p id="step-projetos" class="steps__item" data-i18n="menu.projetos"></p>
+                    </span>
+                </div>
+
+                <div class="menu__steps custom-scrollbar step step--fake">
+                    <span class="steps__wrapper">
+                        <p id="step-contato" class="steps__item" data-i18n="menu.contato"></p>
+                    </span>
+                </div>
+
+                <div class="menu__steps custom-scrollbar substep">
+                    <span class="steps__wrapper">
+                        <p id="step-reserva" class="steps__item" data-i18n="menu.reserva"></p>
+                        <p id="step-frigelar" class="steps__item" data-i18n="menu.frigelar"></p>
+                        <p id="step-livelo" class="steps__item" data-i18n="menu.livelo"></p>
+                        <p id="step-itmidia" class="steps__item" data-i18n="menu.itmidia"></p>
+                    </span>
+                </div>
+
+                <div class="menu__steps custom-scrollbar substep substep--fake">
+                    <span class="steps__wrapper">
+                        <p id="step-frigelar" class="steps__item" data-i18n="menu.frigelar"></p>
+                    </span>
+                </div>
+
+                <div class="menu__steps custom-scrollbar substep substep--fake">
+                    <span class="steps__wrapper">
+                        <p id="step-livelo" class="steps__item" data-i18n="menu.livelo"></p>
+                    </span>
+                </div>
+
+                <div class="menu__steps custom-scrollbar substep substep--fake">
+                    <span class="steps__wrapper">
+                        <p id="step-itmidia" class="steps__item" data-i18n="menu.itmidia"></p>
+                    </span>
+                </div>
+
+                <button id="themeButton" class="theme" data-i18n-aria="theme.aria">
+                    <span class="theme__text" data-i18n="theme.light"></span>
+                </button>
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+    <script src="js/theme.js"></script>
+    <script src="js/loading.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
